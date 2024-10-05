@@ -3,24 +3,15 @@ include 'templates/header.php';
 include 'templates/navbar.php';
 ?>
 
-<style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-</style>
 <body>
-<gmp-map-3d
-      center="7.84925557906087, 125.0509561613793"
-      tilt="50"
-      min-altitude="1000"
-    ></gmp-map-3d>
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8rlfEG9wu6xJaKgcNKp-9_Y0BxxX22bs&v=alpha&libraries=maps3d"
-    ></script>
+  <div class="layout_padding-top">
+    <div class="container">
+      <a class ="navbar-brand">
+        <h1 style="font-weight:bold;"><span style="color:#BE1E2D;font-size:40px;">Map</span>Landing Page</h1>
+      </a>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos minima esse maxime voluptatem vel! Asperiores cupiditate labore temporibus molestiae, atque obcaecati culpa fuga praesentium unde itaque eveniet veniam sunt!</p>
+    </div>
+  </div>
 </body>
 
 <?php
